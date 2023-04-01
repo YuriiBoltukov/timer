@@ -1,0 +1,51 @@
+.timer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.timer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 20px;
+}
+
+.timer-digit {
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-bottom: 10px;
+}
+
+.timer-label {
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.btn {
+	border: 1.5px solid #fff;
+	margin: 5px;
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+}
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}
+.btn:disabled {
+	background-color: darkgrey;
+	color: dimgrey;
+}
+
+body {
+	background-color: #111;
+}
